@@ -58,7 +58,7 @@ function fish_right_prompt
         end
     end
 
-    set -l gray (set_color -o brblack)
+    set -l gray (set_color -d white)
     set -l normal (set_color -o normal)
     set -l cwd (prompt_pwd | path basename)
 
